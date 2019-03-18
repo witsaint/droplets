@@ -1,0 +1,11 @@
+"extends": "airbnb"
+"env": { "browser" : true, "node": true }
+parser: 'babel-eslint'
+"rules": {
+ "linebreak-style": "off",
+ "react/no-danger": "off"
+}
+parserOptions: {
+  sourceType: 'module',
+  allowImportExportEverywhere: true
+}

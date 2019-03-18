@@ -1,0 +1,4 @@
+{
+  "presets": [ "env", "react", "es2015","stage-0" ],
+  "plugins": [ "transform-runtime", "transform-regenerator", "transform-decorators-legacy", "transform-object-rest-spread", "syntax-dynamic-import" ]
+}

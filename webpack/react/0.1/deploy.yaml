@@ -1,0 +1,71 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {DEPLOY_NAME}
+  namespace: {DEPLOY_NAMESPACE}
+  labels:
+    run: {DEPLOY_LABEL}
+spec:
+  revisionHistoryLimit: 3
+  replicas: {DEPLOY_COUNT}
+  selector:
+    matchLabels:
+      run: {DEPLOY_LABEL}
+  template:
+    metadata:
+      labels:
+        run: {DEPLOY_LABEL}
+    spec:
+      volumes:
+      - name: mesh-config
+        configMap:
+          name: web-mall-config
+      containers:
+      - name: {DEPLOY_NAME}
+        image: {DEPLOY_IMAGE}
+        env:
+        - name: "NODE_ENV"
+          value: {DEPLOY_ENV}
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        resources:
+          limits:
+            memory: "300Mi"
+          requests:
+            memory: "50Mi"
+        imagePullPolicy: Always
+      - name: web-mesh  
+        image: {MESH_IMAGE}
+        ports:
+        - containerPort: 8085
+          protocol: TCP
+        volumeMounts:
+        - mountPath: /root/config
+          name: mesh-config
+        resources:
+          limits:
+            memory: "100Mi"
+          requests:
+            memory: "20Mi"
+        imagePullPolicy: Always
+      imagePullSecrets:
+      - name: regcred-gitlab
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: {DEPLOY_NAME}
+  namespace: {DEPLOY_NAMESPACE}
+  labels:
+    run: {DEPLOY_LABEL}
+spec:
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 80
+  selector:
+    run: {DEPLOY_LABEL}
+  type: ClusterIP

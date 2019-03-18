@@ -1,0 +1,32 @@
+FROM registry.gitlab.jufandev.com/k8s/kubectl-base-image:latest
+
+ARG K8S_CONFIG
+ARG DEPLOY_CONTEXT
+ARG DEPLOY_NAMESPACE
+ARG DEPLOY_COUNT
+ARG PROJECT_NAME
+ARG DEPLOY_IMAGE
+ARG MESH_IMAGE
+ARG DEPLOY_ENV
+
+ARG LOG_PATH="/jufan-log.${DEPLOY_STAGE}"
+
+WORKDIR /root/
+RUN mkdir /root/.kube/ && echo "${K8S_CONFIG}" > /root/.kube/config
+RUN kubectl config use-context $DEPLOY_CONTEXT
+
+COPY deploy.config.yaml .
+COPY deploy.yaml .
+
+RUN sed -i "s#{DEPLOY_NAMESPACE}#$DEPLOY_NAMESPACE#g" deploy.config.yaml
+
+RUN sed -i "s#{DEPLOY_NAMESPACE}#$DEPLOY_NAMESPACE#g" deploy.yaml
+RUN sed -i "s#{DEPLOY_LABEL}#$PROJECT_NAME#g" deploy.yaml
+RUN sed -i "s#{DEPLOY_NAME}#$PROJECT_NAME#g" deploy.yaml
+RUN sed -i "s#{DEPLOY_IMAGE}#$DEPLOY_IMAGE#g" deploy.yaml
+RUN sed -i "s#{MESH_IMAGE}#$MESH_IMAGE#g" deploy.yaml
+RUN sed -i "s#{DEPLOY_COUNT}#$DEPLOY_COUNT#g" deploy.yaml
+RUN sed -i "s#{DEPLOY_ENV}#$DEPLOY_ENV#g" deploy.yaml
+
+RUN kubectl apply -f deploy.config.yaml
+RUN kubectl apply -f deploy.yaml

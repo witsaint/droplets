@@ -1,0 +1,154 @@
+variables:
+  NAMESPACE_DEV: "hippo-dev"
+  NAMESPACE_STAGE: "yanjiu-stage"
+  NAMESPACE_PROD: "yanjiu"
+
+  ENV_DEV: "development"
+  ENV_STAGE: "staging"
+  ENV_PROD: "production"
+
+  CONTEXT_DEV: "jufandev"
+  CONTEXT_STAGE: "jufan"
+  CONTEXT_PROD: "jufan"
+
+  GROUP_NAME: "hippo"
+  MESH_VERSION: "develop-snapshot-507"
+
+.script-template: &script-definition |
+  #!/bin/bash
+  function composeName() {
+      temp_name=''
+      for i in $@
+      do
+      if [ ! -n "$temp_name" ]; then
+          temp_name=$i
+      else
+          temp_name=$temp_name'_'$i
+      fi
+      done
+      echo $temp_name | tr '[A-Z]' '[a-z]'
+  }
+
+  function revision() {
+      if [ -n "$CI_COMMIT_TAG" ]; then
+          echo stable-$CI_COMMIT_TAG
+      else
+          echo $CI_COMMIT_REF_SLUG-snapshot-$CI_PIPELINE_ID
+      fi
+  }
+
+.build-template: &build-definition
+  stage: build
+  script:
+    - docker build
+      --pull
+      --no-cache
+      --build-arg GROUP_NAME="$GROUP_NAME"
+      --build-arg PROJECT_NAME="$CI_PROJECT_NAME"
+      --build-arg SSH_PRIVATE_KEY="$SSH_PRIVATE_KEY"
+      --build-arg GIT_EMAIL="$GITLAB_USER_EMAIL"
+      --build-arg DEPLOY_ENV="$DEPLOY_ENV"
+      -t "$CI_REGISTRY_IMAGE:$(revision)" .
+    - docker push "$CI_REGISTRY_IMAGE:$(revision)"
+
+.deploy-template: &deploy-definiton
+  stage: deploy
+  script:
+    - DEPLOY_NAME=$(composeName depoly $CI_PROJECT_NAMESPACE $CI_PROJECT_NAME $CI_COMMIT_REF_SLUG)
+    - docker build
+      --pull
+      --no-cache
+      --build-arg K8S_CONFIG="$K8S_CONFIG"
+      --build-arg DEPLOY_CONTEXT="$DEPLOY_CONTEXT"
+      --build-arg DEPLOY_NAMESPACE="$DEPLOY_NAMESPACE"
+      --build-arg DEPLOY_COUNT="$DEPLOY_COUNT"
+      --build-arg DEPLOY_ENV="$DEPLOY_ENV"
+      --build-arg PROJECT_NAME="web-mall"
+      --build-arg DEPLOY_IMAGE="$CI_REGISTRY_IMAGE:$(revision)"
+      --build-arg MESH_IMAGE="$CI_REGISTRY/k8s/web-mesh:$MESH_VERSION"
+      -f ./Dockerfile.deploy
+      -t "$DEPLOY_NAME:$CI_COMMIT_SHA" .
+    - docker rmi -f "$DEPLOY_NAME:$CI_COMMIT_SHA"
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - *script-definition
+  - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+
+build-master:
+  variables:
+    DEPLOY_ENV: $ENV_PROD
+  <<: *build-definition
+  only:
+  - master
+  tags:
+  - k8s-public
+deploy-master:
+  variables:
+    DEPLOY_CONTEXT: $CONTEXT_PROD
+    DEPLOY_NAMESPACE: $NAMESPACE_PROD
+    DEPLOY_COUNT: 3
+    DEPLOY_ENV: $ENV_PROD
+  <<: *deploy-definiton
+  when: manual
+  only:
+  - master
+
+build-tag:
+  variables:
+    DEPLOY_ENV: $ENV_PROD
+  <<: *build-definition
+  only:
+  - tags
+  tags:
+  - k8s-public
+deploy-tag:
+  variables:
+    DEPLOY_CONTEXT: $CONTEXT_PROD
+    DEPLOY_NAMESPACE: $NAMESPACE_PROD
+    DEPLOY_COUNT: 3
+    DEPLOY_ENV: $ENV_PROD
+  <<: *deploy-definiton
+  when: manual
+  only:
+  - tags
+
+build-stage:
+  variables:
+    DEPLOY_ENV: $ENV_STAGE
+  <<: *build-definition
+  only:
+  - stage
+  tags:
+  - k8s-public
+deploy-stage:
+  variables:
+    DEPLOY_CONTEXT: $CONTEXT_STAGE
+    DEPLOY_NAMESPACE: $NAMESPACE_STAGE
+    DEPLOY_COUNT: 3
+    DEPLOY_ENV: $ENV_STAGE
+  <<: *deploy-definiton
+  only:
+  - stage
+
+build-develop:
+  variables:
+    DEPLOY_ENV: $ENV_DEV
+  <<: *build-definition
+  only:
+  - develop
+  tags:
+  - k8s-public
+deploy-develop:
+  variables:
+    DEPLOY_CONTEXT: $CONTEXT_DEV
+    DEPLOY_NAMESPACE: $NAMESPACE_DEV
+    DEPLOY_COUNT: 2
+    DEPLOY_ENV: $ENV_DEV
+  <<: *deploy-definiton
+  when: manual
+  only:
+  - develop
