@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-mall-config
+  namespace: {DEPLOY_NAMESPACE}
+data:
+  config.json: |
+    {
+      "proxy": {
+        "/login_svc": {
+          "target": "http://user-server:8085"
+        },
+        "/auth_svc": {
+          "target": "http://user-server:8085"
+        },
+        "/sku_svc": {
+          "target": "http://sku-server:8085"
+        },
+        "/order_svc": {
+          "target": "http://order-server:8085"
+        },
+        "/admin_svc": {
+          "target": "http://admin-server:8085"
+        },
+        "/user_svc": {
+          "target": "http://user-server:8085"
+        },
+        "/audit_svc": {
+          "target": "http://audit-server:8085"
+        }
+      }
+    }
