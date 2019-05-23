@@ -1,0 +1,71 @@
+{
+  "apps": [
+    {
+      "name": "my-project",
+      "script": "./server.js", //程序入库,
+      "cwd": "./",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "./logs/node-app.stderr.log",
+      "out_file": "./logs/node-app.stdout.log",
+//      "pid_file": "pids/node-geo-api.pid",
+      "instances": 1,
+      "min_uptime": "200s",
+      //      "max_restarts": 10,
+      "max_memory_restart": "1M",
+      //      "cron_restart": "1 0 * * *",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production" : {
+        "NODE_ENV": "production"
+      },
+      "watch": [  // 监控变化的目录，一旦变化，自动重启
+        "bin",
+        "routers"
+      ],
+      "ignore_watch" : [  // 从监控目录中排除
+        "node_modules",
+        "logs",
+        "public"
+      ],
+      "watch_options": {
+        "followSymlinks": false
+      },
+      "merge_logs": true,
+      "exec_interpreter": "node",
+      "exec_mode": "fork",
+//      "exec_mode": "cluster",
+      "autorestart": false,
+      "vizion": false
+    },
+    {}
+  ],
+  /**
+ * Deployment section
+ * http://pm2.keymetrics.io/docs/usage/deployment/
+ */
+  "deploy" : {
+    "pro": {
+      "user": "witsaint",
+      "host": "106.12.14.227",
+      "ref": "origin/master",
+      "repo": "https://github.com/witsaint/FEEngineering.git",
+      "path": "/www/web/witsaint",
+      "post-deploy" : "npm install && pm2 startOrRestart processes.json --env dev",
+      "env"  : {
+        "NODE_ENV": "dev"
+      }
+    },
+    "dev" : {
+      "user" : "witsaint",
+      "host" : "192.168.21.30",
+      "ref"  : "origin/master",
+      "repo" : "https://github.com/witsaint/FEEngineering.git",
+      "path" : "/www/web/witsaint",
+      "post-deploy" : "npm install && pm2 startOrRestart processes.json --env dev",
+      "env"  : {
+        "NODE_ENV": "dev"
+      }
+    }
+  }
+}
