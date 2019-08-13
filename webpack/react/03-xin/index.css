@@ -1,0 +1,81 @@
+html , body{
+  overflow-x: hidden;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  height: 100vh;
+  background: #FFFFFF;
+}
+
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4, h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  border: 0;
+}
+input,textarea{
+-webkit-appearance: none;
+}
+/* 英文前于中文，安卓前于ios，如下：UI设定*/
+*{
+  font-family: PingFangSC-Light,-apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+}
+
+.skeleton-screen-back {
+  background: rgba(245, 245, 245, 1)!important;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.image_wrapper img{
+  width: 100%;
+  height: 100%;
+}
+
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@keyframes breathing{
+  0%{
+    transform: scale(1, 1);
+  }
+  50%{
+    transform: scale(1.06, 1.02);
+  }
+  100%{
+    transform: scale(1, 1);
+  }
+}
+
+.txc{
+  text-align: center;
+}
+
+#root{
+  height: 100%;
+  position: relative;
+}
+
+@font-face {
+  font-family: MarkPro-Bold;
+  src: url('./src/assets/font/MarkPro-Bold.ttf');
+}
+@font-face {
+  font-family: MF-FangHei;
+  src: url('./src/assets/font/MF-FangHei-Noncommercial-Regular.ttf');
+}

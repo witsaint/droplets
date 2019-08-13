@@ -1,0 +1,61 @@
+{
+  "common": {
+    "title": "94要美整形美容",
+    "imgUrl": "",
+    "desc": "整形·微整形·激光美肤人气最高爱美人士社区、整形点评、整形热卖平台"
+  },
+  "projectDetail": {
+    "title": "94要美整形美容——",
+    "imgUrl": "rendering_pic_after",
+    "desc": "summary",
+    "titleKey": "name"
+  },
+  "hospitalDetail": {
+    "title": "94要美整形美容——",
+    "imgUrl": "icon",
+    "desc": "summary",
+    "titleKey": "name"
+  },
+  "ask": {
+    "title": "",
+    "imgUrl": "userIcon",
+    "desc": "content",
+    "titleKey": "title"
+  },
+  "series": {
+    "title": "",
+    "imgUrl": "",
+    "desc": "",
+    "titleKey": "title"
+  },
+  "diaryDetail": {
+    "title": "",
+    "imgUrl": "",
+    "desc": "",
+    "titleKey": "title"
+  },
+  "post": {
+    "title": "",
+    "imgUrl": "image",
+    "desc": "content",
+    "titleKey": "title"
+  },
+  "mart": {
+    "title": "",
+    "imgUrl": "",
+    "desc": "",
+    "titleKey": "title"
+  },
+  "productDetail": {
+    "title": "产品推荐——",
+    "imgUrl": "image",
+    "desc": "content",
+    "titleKey": "name"
+  },
+  "doctorDetail": {
+    "title": "医生推荐——",
+    "imgUrl": "icon",
+    "desc": "summary",
+    "titleKey": "name"
+  }
+}
