@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7400c32-9621-41a5-9eb9-139e65ec11ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,44 +16,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react/react.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/dev-server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/build/webpack.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/config/webpack.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/build/webpack.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="137" column="26" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/webpack.base.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/vue-loader.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>babel</find>
+      <find>autoprefixer</find>
+      <find>MiniCssExtractPlugin</find>
+      <find>CopyWebpackPlugin</find>
+      <find>cross-env</find>
+      <find>webpack-hot-middleware</find>
+      <find>CleanWebpackPlugin</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +108,7 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -98,6 +132,77 @@
               <item name="droplets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="03-xin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="03-xin" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="03-xin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="03-xin" type="462c0819:PsiDirectoryNode" />
+              <item name="index.tsx" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="droplets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droplets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="0.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -107,8 +212,10 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/gdqDev/newshop" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../saint/wit_saint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -142,16 +249,18 @@
       <workItem from="1546068263705" duration="525000" />
       <workItem from="1553831621996" duration="1078000" />
       <workItem from="1553841432090" duration="632000" />
+      <workItem from="1581922907017" duration="2595000" />
+      <workItem from="1581995160626" duration="9349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2235000" />
+    <option name="totallyTimeSpent" value="14179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13962065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18018967" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,7 +317,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="100">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -218,6 +327,114 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/webpack.test.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/dev-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/vue/0.2/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/build/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/config/webpack.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/03-xin/build/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="26" />
         </state>
       </provider>
     </entry>
