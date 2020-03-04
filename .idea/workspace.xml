@@ -1,212 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7400c32-9621-41a5-9eb9-139e65ec11ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/droplets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/droplets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0ff5b457-5f02-4e64-86e2-5044d8d42f76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/config/test.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/page/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/modules/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/vue/directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/vue/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/static/favicon-pxq.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/react.md" beforeDir="false" afterPath="$PROJECT_DIR$/react/react.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/react_router4_base.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/react_router4_base.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.storybook/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.storybook/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/.storybook/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/.storybook/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/Dockerfile.deploy" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/Dockerfile.deploy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.staging.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/config/webpack.staging.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/deploy.config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/deploy.config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/pwa_static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/pwa_static/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/sw_base.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/sw_base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/test_setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/test_setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/testfileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/testfileMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/0.1/workbox-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/0.1/workbox-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/config/webpack.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/config/webpack.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/pwa_static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/pwa_static/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/router/base.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/router/base.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/router/loading_component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/router/loading_component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/router/route_config.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/router/route_config.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/Js_bridge.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/Js_bridge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/WebViewJavascriptBridge.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/WebViewJavascriptBridge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/adopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/adopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/axios_global_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/axios_global_config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/jftrack.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/jftrack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/r.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/src/utils/wx_utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/src/utils/wx_utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/sw_base.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/sw_base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/test_setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/test_setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/testfileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/testfileMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/01/workbox-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/01/workbox-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/config/webpack.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/config/webpack.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/pwa_static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/pwa_static/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/router/base.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/router/base.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/router/loading_component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/router/loading_component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/router/route_config.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/router/route_config.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/Js_bridge.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/Js_bridge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/WebViewJavascriptBridge.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/WebViewJavascriptBridge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/adopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/adopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/axios_global_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/axios_global_config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/jftrack.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/jftrack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/r.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/src/utils/wx_utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/src/utils/wx_utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/sw_base.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/sw_base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/test_setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/test_setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/testfileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/testfileMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/02/workbox-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/02/workbox-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/03-xin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/03-xin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/react/03-xin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/react/03-xin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/.postcssrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/check-versions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/dev-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/dev-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/dev-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/skeleton.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/skeleton.entry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/vue-loader.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.dev.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.prod.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.skeleton.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/build/webpack.skeleton.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/config/dev.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/config/prod.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/config/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/config/test.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/dist/skeleton.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/dist/skeleton.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/css/app.adda2935aac6ab282117ef9b9de01c2e.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/css/app.adda2935aac6ab282117ef9b9de01c2e.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/img/ionicons.621bd38.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/img/ionicons.621bd38.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/js/app.f777004d301753db2362.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/js/app.f777004d301753db2362.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/js/manifest.94b4d2eb526d1c03c719.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/js/manifest.94b4d2eb526d1c03c719.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/js/vendor.326df4f93223fdd3d289.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/dist/static/js/vendor.326df4f93223fdd3d289.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/ecosystem.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/index.tem.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/index.tem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/processes.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/processes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/processes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/processes.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/skeleton.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/skeleton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/Adopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/Adopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/Mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/Mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/directive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/Vue/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/api/classTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/api/classTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/api/connectInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/api/connectInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/api/debtor.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/api/debtor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/api/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/api/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/assets/svgDataA.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/assets/svgDataA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/assets/svgdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/assets/svgdata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/components/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/components/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/components/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/components/menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/components/menu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/entry-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/entry-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/entry-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/entry-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/router/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/router/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/skeleton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/skeleton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/store/getters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/store/modules/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/store/modules/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/store/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/utils/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/utils/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/utils/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/demo/eleTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/demo/eleTable.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/demo/grid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/demo/grid.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/demo/picker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/demo/picker.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/homeCope.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/homeCope.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/src/views/item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/src/views/item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/jest.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/jest.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/specs/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.1/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/build/vue-loader.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/Adopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/Adopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/Mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/Mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/comment.less" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/comment.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/directive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/Vue/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/api/Web.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/api/Web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/components/Bar/show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/components/Bar/show.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/store/modules/issue.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/store/modules/issue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/Math.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/Math.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/Mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/Mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/timetool.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/timetool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/validateForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/validateForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/zipImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/utils/zipImg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/views/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/views/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/views/main/form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/views/main/form.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/views/main/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/views/main/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/views/main/testComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/views/main/testComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/views/test/assumpsit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/views/test/assumpsit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/src/views/test/authorization.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/src/views/test/authorization.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,32 +41,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>true</other-services-enabled>
-  </component>
-  <component name="ProjectId" id="1SVEBty02nbq98soJql1pFIFnzJ" />
+  <component name="ProjectId" id="1YbP2gsm8vZzSVWMiEMUXGJutCE" />
   <component name="PropertiesComponent">
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/gaodev/moretickets_admin_vuejs_webpack" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\droplets\droplets\css" />
-      <recent name="D:\workspace\droplets\droplets\react" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,36 +71,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7400c32-9621-41a5-9eb9-139e65ec11ae" name="Default" comment="" />
-      <created>1546068262328</created>
+      <changelist id="0ff5b457-5f02-4e64-86e2-5044d8d42f76" name="Default Changelist" comment="" />
+      <created>1583208114940</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546068262328</updated>
-      <workItem from="1546068263705" duration="525000" />
-      <workItem from="1553831621996" duration="1078000" />
-      <workItem from="1553841432090" duration="632000" />
-      <workItem from="1571640233898" duration="2798000" />
-      <workItem from="1575873939737" duration="598000" />
-      <workItem from="1578032588830" duration="641000" />
-      <workItem from="1578044371817" duration="3929000" />
-      <workItem from="1578109544193" duration="17000" />
+      <updated>1583208114940</updated>
+      <workItem from="1583208116183" duration="10573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/webpack/react/03-xin/index.js" />
+        <option value="$PROJECT_DIR$/webpack/react/02/index.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/webpack/vue/0.1/src/store/index.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

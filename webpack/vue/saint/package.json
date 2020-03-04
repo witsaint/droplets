@@ -1,0 +1,63 @@
+{
+  "name": "wit_saint",
+  "version": "0.0.1",
+  "description": "noting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js --inline --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "assets-webpack-plugin": "^3.9.10",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "chromedriver": "^80.0.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^7.0.0",
+    "css-loader": "^3.4.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-notifier": "^6.0.0",
+    "portfinder": "^1.0.25",
+    "postcss-loader": "^3.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "url-loader": "^3.0.0",
+    "vue-loader": "^15.9.0",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-route": "^1.5.1",
+    "vue-router": "^3.1.6",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.1.2"
+  }
+}
