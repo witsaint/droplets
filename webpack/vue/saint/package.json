@@ -29,17 +29,35 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.8.4",
     "assets-webpack-plugin": "^3.9.10",
     "autoprefixer": "^9.7.4",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "browserslist": "^4.9.1",
     "chromedriver": "^80.0.1",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
+    "cors": "^2.8.5",
     "cross-env": "^7.0.0",
     "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^6.2.1",
+    "express": "^4.17.1",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
+    "http-proxy-middleware": "^1.0.1",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^10.0.8",
     "mini-css-extract-plugin": "^0.9.0",
     "node-notifier": "^6.0.0",
     "portfinder": "^1.0.25",
@@ -48,16 +66,27 @@
     "url-loader": "^3.0.0",
     "vue-loader": "^15.9.0",
     "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.7.1",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "vue": "^2.6.11",
-    "vue-route": "^1.5.1",
     "vue-router": "^3.1.6",
-    "vue-template-compiler": "^2.6.11",
     "vuex": "^3.1.2"
-  }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

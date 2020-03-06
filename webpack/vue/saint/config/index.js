@@ -13,6 +13,13 @@ module.exports = {
         target: server,
         changeOrigin: true
       },
+      '/js': {
+        target: 'http://localhost:8081',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/js': '',
+        }
+      },
     },
 
     // Various Dev Server settings

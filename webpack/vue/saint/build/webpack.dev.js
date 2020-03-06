@@ -13,6 +13,11 @@ const portfinder = require('portfinder');
 const devWebpackConf = merge(baseWebpackConf, {
   mode: 'development',
   // devtool: 'inline-source-map',
+  output: {
+    path: path.resolve(__dirname, '../dist'),
+    filename: '[name].[hash].js',
+    publicPath: '/',
+  },
   devServer: {
     clientLogLevel: 'warning',
     historyApiFallback: {
@@ -20,7 +25,7 @@ const devWebpackConf = merge(baseWebpackConf, {
         from: /.*/, to: path.posix.join('/', 'index.html'),
       }],
     },
-    hot: false,
+    hot: true,
     // contentBase: path.join(__dirname, '../public/'), // same as output.path
     contentBase: false, // since we use CopyWebpackPlugin.
     // watchContentBase: true,
@@ -46,7 +51,9 @@ const devWebpackConf = merge(baseWebpackConf, {
         to: devConf.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+    // 热更新插件
+    new webpack.HotModuleReplacementPlugin()
   ],
   optimization: {
     minimize: false,
@@ -79,4 +86,3 @@ module.exports = new Promise((resolve, reject) => {
   })
 });
 
-// module.exports = devWebpackConf;
