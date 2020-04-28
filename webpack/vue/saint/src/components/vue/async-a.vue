@@ -1,5 +1,5 @@
 <template>
-    <div class="test-async-a">test a</div>
+    <div class="test-async-a">主基站组件</div>
 </template>
 
 <script>

@@ -1,15 +1,19 @@
 import Vue from 'vue';
+import ElementUI from 'element-ui';
 import router from './router';
 import store from "./store";
 import * as directive from './vue/directive';
 import * as filters from './vue/filters';
 import getComponents from './vue/components';
+
+import 'element-ui/lib/theme-chalk/index.css';
 import App from './App';
 
-import asyncRoute from './router/asnyc';
+import socket from './socket';
 
 import './assets/style/common.less';
 
+Vue.use(ElementUI);
 Vue.config.productionTip = false;
 
 getComponents();

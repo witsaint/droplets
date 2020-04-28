@@ -16,7 +16,7 @@ const devWebpackConf = merge(baseWebpackConf, {
   // devtool: 'inline-source-map',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].[hash].js',
+    filename: '[name].js',
     publicPath: '//localhost:8081/',
     library: packageConf.name,
     libraryTarget: 'umd',
@@ -29,13 +29,14 @@ const devWebpackConf = merge(baseWebpackConf, {
         from: /.*/, to: path.posix.join('/', 'index.html'),
       }],
     },
-    hot: true,
+    hot: false, // 目前分支项目不支持热更新 但是是可以有热替换
     // contentBase: path.join(__dirname, '../public/'), // same as output.path
     contentBase: false, // since we use CopyWebpackPlugin.
     // watchContentBase: true,
     host: 'localhost',
     port: devConf.port,
     publicPath: '/',
+    inline: true,
     quiet: true,
     after(app) {
       console.log(`\nplease visit \x1b[32mhttp://localhost:${devConf.port}`);

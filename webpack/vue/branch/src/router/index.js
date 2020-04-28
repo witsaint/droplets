@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 // const Foo = () => import(/* webpackChunkName: "group-foo" */ './Foo.vue')
 const Home = () => import('@/page/index');
+const Other = () => import('@/page/other');
 
 Vue.use(Router);
 export const constantRouterMap = [
@@ -18,6 +19,10 @@ export const constantRouterMap = [
   {
     path: '/async',
     component: Home,
+  },
+  {
+    path: '/other',
+    component: Other,
   },
 ];
 

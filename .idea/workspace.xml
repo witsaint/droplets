@@ -2,36 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff5b457-5f02-4e64-86e2-5044d8d42f76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.pro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/assets/image/loading/main-loading@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/assets/style/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/components/vue/async-a.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/router/asnyc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/branch/src/page/other.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/socket/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/0.2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/0.2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/build/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/public/assets/webpack-assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/public/assets/webpack-assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/src/page/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/src/page/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/saint/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/saint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/postcss.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/saint/public/assets/webpack-assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/public/assets/webpack-assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/page/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/page/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/getters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/store/modules/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/modules/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/vue/directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/vue/directive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/vue/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/vue/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/router/asnyc.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/router/asnyc.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +65,9 @@
       <updated>1583208114940</updated>
       <workItem from="1583208116183" duration="18047000" />
       <workItem from="1583406119307" duration="626000" />
+      <workItem from="1584683742960" duration="55000" />
+      <workItem from="1588066023169" duration="341000" />
+      <workItem from="1588066600805" duration="359000" />
     </task>
     <servers />
   </component>
