@@ -1,12 +1,14 @@
 {
-  "name": "branha",
+  "name": "brancha",
   "version": "0.0.1",
   "description": "noting",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js --inline --progress",
-    "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.js"
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.js",
+    "postbuild": "node service/build-file-watch.js && npm run pro",
+    "pro": "node server.js"
   },
   "author": "",
   "license": "ISC",

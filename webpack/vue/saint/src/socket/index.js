@@ -2,46 +2,88 @@ import axios from 'axios';
 import router from '../router';
 import Base from '../layout';
 
-const conf = {
-  // js: '/main.js',
-  js: '/main.042bc55a9c5c1e675c64.js',
-  host: '//127.0.0.1:8081',
-};
+const branchMap = [
+  {
+    name: 'brancha',
+    scripts: ['main.js'],
+    styles: [],
+    host: '//127.0.0.1:8081',
+  },
+];
 
-const register = (addRoute) => {
-  const moduleObj = window.branha && window.branha;
+const register = (moduleName) => {
+  const moduleObj = window[moduleName];
   if (!moduleObj) return false;
   const moduleAConstructor = moduleObj.default;
   const module = moduleAConstructor();
   const { router: moduleRouter } = module;
-  console.info('moduleObj', module);
-  addRoute && router.addRoutes([{
+  console.info('moduleRouter', moduleRouter);
+  router.addRoutes([{
     path: '/module1',
     component: Base,
     children: moduleRouter,
   }]);
 };
 
-const innerScript = () => {
-  const jsDom = document.createElement('script');
-  jsDom.setAttribute('type', 'text/javascript');
-  jsDom.setAttribute('src', `${conf.host}${conf.js}`);
-  document.body.appendChild(jsDom);
-
-  if (jsDom.readyState) {
-    jsDom.onreadystatechange = function () {
-      const rs = jsDom.readyState;
+const domOnLoad = (dom, callback) => {
+  if (dom.readyState) {
+    dom.onreadystatechange = function () {
+      const rs = dom.readyState;
       if (rs === 'loaded' || rs === 'complete') {
-        register();
+        callback();
       }
     };
   } else {
-    jsDom.addEventListener('load', register, false);
+    dom.addEventListener('load', callback, false);
   }
 };
 
-innerScript();
+/* 插入脚本 */
+const innerScript = (host, js) => new Promise((resolve, reject) => {
+  const jsDom = document.createElement('script');
+  jsDom.setAttribute('type', 'text/javascript');
+  jsDom.setAttribute('src', `${host}/${js}`);
+  document.body.appendChild(jsDom);
+
+  domOnLoad(jsDom, resolve);
+});
+
+/* 插入样式 */
+const innerStyles = (host, css) => new Promise(((resolve, reject) => {
+  const cssDom = document.createElement('link');
+  cssDom.setAttribute('type', 'text/javascript');
+  cssDom.setAttribute('rel', 'stylesheet');
+  cssDom.setAttribute('src', `${host}/${css}`);
+  document.head.appendChild(cssDom);
+
+  domOnLoad(cssDom, resolve);
+}));
+
+/* 注册子项目 */
+const registrySubApp = (registerObj) => {
+  console.info('register sub app');
+  const {
+    name, scripts, styles, host,
+  } = registerObj;
+  const curScriptsLoad = scripts.map((js) => innerScript(host, js));
+  Promise.all(curScriptsLoad).then(() => {
+    register(name);
+  });
+};
 
 window.hotReloadSubApp = () => {
-  register();
+  // register();
 };
+
+window.registrySubApp = registrySubApp;
+
+// branchMap.forEach((branch) => registrySubApp(branch));
+/* 从文件服务获取配置进行加载各个分支项目资源 */
+axios.get('http://127.0.0.1:8082/build.json').then((conf) => {
+  const { status, data } = conf;
+  if (status === 200) {
+    Object.keys(data).forEach((branchName) => {
+      registrySubApp(data[branchName]);
+    });
+  }
+});

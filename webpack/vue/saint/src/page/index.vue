@@ -18,7 +18,7 @@ export default {
     TestAsyncA,
   },
   mounted() {
-    console.log('da1');
+    console.log('this is base page');
   },
 };
 
