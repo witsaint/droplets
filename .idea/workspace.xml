@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff5b457-5f02-4e64-86e2-5044d8d42f76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webpack/vue/branch/src/page/other.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vue/saint/src/socket/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/build/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/build/webpack.pro.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/config/prod.env.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/branch/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/branch/public/assets/webpack-assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/public/assets/webpack-assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/src/page/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/src/page/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/branch/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/build/webpack.pro.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/branch/build/webpack.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/saint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/vue/saint/public/assets/webpack-assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/public/assets/webpack-assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/router/asnyc.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/router/asnyc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/vue/saint/src/socket/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/vue/saint/src/socket/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +63,7 @@
       <workItem from="1584683742960" duration="55000" />
       <workItem from="1588066023169" duration="341000" />
       <workItem from="1588066600805" duration="359000" />
+      <workItem from="1588070060153" duration="1227000" />
     </task>
     <servers />
   </component>

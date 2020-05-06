@@ -3,8 +3,9 @@ import router from '../router';
 import Base from '../layout';
 
 const conf = {
-  js: '/main.js',
-  host: '//localhost:8081',
+  // js: '/main.js',
+  js: '/main.042bc55a9c5c1e675c64.js',
+  host: '//127.0.0.1:8081',
 };
 
 const register = (addRoute) => {

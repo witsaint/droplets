@@ -1,12 +1,14 @@
 const merge = require('webpack-merge');
 const path = require('path');
 const webpack = require('webpack');
+const buildConfig = require('../config/index').build;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
-const common = require('./webpack.common');
+const common = require('./webpack.base');
+const packageConf = require('../package');
 
 module.exports = merge(common, {
   mode: 'production',
@@ -17,7 +19,10 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, '../dist/'),
     filename: '[name].[chunkhash].js',
-    publicPath: '/'
+    publicPath: '//localhost:8081/',
+    library: packageConf.name,
+    libraryTarget: 'umd',
+    jsonpFunction: `webpackJsonp_${packageConf.name}`,
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -29,7 +34,7 @@ module.exports = merge(common, {
       inject: true,
     }),
     new OptimizeCSSPlugin({
-      cssProcessorOptions: config.build.productionSourceMap
+      cssProcessorOptions: buildConfig.productionSourceMap
         ? { safe: true, map: { inline: false } }
         : { safe: true }
     }),
