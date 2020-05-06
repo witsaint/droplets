@@ -18,7 +18,7 @@
     "pm2": "pm2 start processes.json  0"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.18.1",
     "element-ui": "^2.3.7",
     "fdk-ui": "git+http://git.jufandev.com/fe/UI.git",
     "html-minifier": "^3.5.16",
