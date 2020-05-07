@@ -51,9 +51,9 @@ const innerScript = (host, js) => new Promise((resolve, reject) => {
 /* 插入样式 */
 const innerStyles = (host, css) => new Promise(((resolve, reject) => {
   const cssDom = document.createElement('link');
-  cssDom.setAttribute('type', 'text/javascript');
+  cssDom.setAttribute('type', 'text/css');
   cssDom.setAttribute('rel', 'stylesheet');
-  cssDom.setAttribute('src', `${host}/${css}`);
+  cssDom.setAttribute('href', `${host}/${css}`);
   document.head.appendChild(cssDom);
 
   domOnLoad(cssDom, resolve);
@@ -65,6 +65,7 @@ const registrySubApp = (registerObj) => {
   const {
     name, scripts, styles, host,
   } = registerObj;
+  styles.forEach((style) => innerStyles(host, style));
   const curScriptsLoad = scripts.map((js) => innerScript(host, js));
   Promise.all(curScriptsLoad).then(() => {
     register(name);
@@ -77,13 +78,13 @@ window.hotReloadSubApp = () => {
 
 window.registrySubApp = registrySubApp;
 
-// branchMap.forEach((branch) => registrySubApp(branch));
+branchMap.forEach((branch) => registrySubApp(branch));
 /* 从文件服务获取配置进行加载各个分支项目资源 */
-axios.get('http://127.0.0.1:8082/build.json').then((conf) => {
-  const { status, data } = conf;
-  if (status === 200) {
-    Object.keys(data).forEach((branchName) => {
-      registrySubApp(data[branchName]);
-    });
-  }
-});
+// axios.get('http://127.0.0.1:8082/build.json').then((conf) => {
+//   const { status, data } = conf;
+//   if (status === 200) {
+//     Object.keys(data).forEach((branchName) => {
+//       registrySubApp(data[branchName]);
+//     });
+//   }
+// });

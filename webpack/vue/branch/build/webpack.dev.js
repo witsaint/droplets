@@ -29,7 +29,7 @@ const devWebpackConf = merge(baseWebpackConf, {
         from: /.*/, to: path.posix.join('/', 'index.html'),
       }],
     },
-    hot: false, // 目前分支项目不支持热更新 但是是可以有热替换
+    hot: true,
     // contentBase: path.join(__dirname, '../public/'), // same as output.path
     contentBase: false, // since we use CopyWebpackPlugin.
     // watchContentBase: true,
@@ -38,6 +38,7 @@ const devWebpackConf = merge(baseWebpackConf, {
     publicPath: '/',
     inline: true,
     quiet: true,
+    headers: { 'Access-Control-Allow-Origin': '*' },
     after(app) {
       console.log(`\nplease visit \x1b[32mhttp://localhost:${devConf.port}`);
     },

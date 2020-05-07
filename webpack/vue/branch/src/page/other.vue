@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       show: false,
-      data: '这是另一个页面other',
+      data: '子项目可以热更新，这是另一个页面other',
     };
   },
   components: {

@@ -14,10 +14,10 @@ const register = () => ({
   filters,
   store,
 });
-if (module.hot) {
-  module.hot.accept();
-  window.hotReloadSubApp && window.hotReloadSubApp();
-  console.info('热更新了...');
-}
+// if (module.hot) {
+//   module.hot.accept();
+//   window.hotReloadSubApp && window.hotReloadSubApp();
+//   console.info('热更新了...');
+// }
 
 export default register;
